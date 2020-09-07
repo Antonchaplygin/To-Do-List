@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.gitexample {
+  
+}
+
+
+
+.header {
+  width: 1425px;
+  height: 160px;
+  background-color: blue;
+  position: relative;
+  left: 10px;
+  margin-top: 7px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  position: relative;
+  top: 45px;
+}
+
+input {
+  width: 1000px;
+  height: 35px;
+  position: relative;
+  left: 45px;
+  top: 65px;
+}
+
+.btn {
+    /*width: 25%;*/
+  padding: 9px;
+  width: 50px;
+  height: 35px;
+  position: relative;
+  border-radius: 0;
+  left: 100px;
+  top: 65px;
+  cursor: pointer;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+
+ li {
+  width: 1425px;
+  cursor: pointer;
+  background: #ddd;
+  padding: 12px 8px 12px 40px;
+  font-size: 21px;
+  left: 10px;
+  position: relative;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+li:nth-child(odd) {
+  background: white;
+}
+
+li:hover {
+  background: grey;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 25;
+  padding: 10px 14px 10px 14px;
+}
+
+.close:hover {
+  top: 0px;
+  bottom: 5px;
+  background-color: blue;
+  color: white;
+  padding: 12px 8px 36px 8px;
+}
